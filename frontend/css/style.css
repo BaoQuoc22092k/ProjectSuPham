@@ -1,0 +1,135 @@
+body{
+    background-color: #fff;
+    font-family: Arial;
+}
+/* header */
+.header{
+    background-color:#29313c ;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 3;
+}
+.header-div{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+.header-a{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#header-phone{
+    margin-right: 30%;
+}
+.header-icon{
+    margin: 1%;
+    text-decoration:none;
+    color: #fff;
+}
+
+/* Navigation */
+.nav{
+    padding-top: 40px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border: hidden;
+    box-shadow: 0px 5px 5px #8f8f8f;
+    -moz-box-shadow: 5px 5px 5px #8f8f8f;
+    -webkit-box-shadow: 5px 5px 5px #8f8f8f;
+    -o-box-shadow: 5px 5px 5px #8f8f8f;
+    -ms-box-shadow: 5px 5px 5px #8f8f8f;
+}
+.nav-a1{
+    word-wrap:break-word ;
+}
+.imgNav{
+    width: 50px;
+}
+.nav-div{
+    text-align: center;
+    width: 80%;
+    text-transform: uppercase;
+}
+.nav a{
+    word-wrap: break-word;
+    padding-left:30px ;
+}
+/* SideBar */
+.sideBar{
+    z-index: 1;
+}
+
+/* introduce */
+.introduce {
+    width: 100%;
+    background-color: #efefef;
+    height: 400px;
+  }
+  .vinhuni{
+  }
+  
+  /* Function */
+  .function{
+    width: 100%;
+    height: 800px;
+    background-color: #fff;
+  }
+  .function-table{
+    word-wrap:break-word;
+    text-align: center;
+    width: 100%;
+  }
+.function-table-td{
+    padding: 30px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.function-table-td a:hover{
+    background-color: #858585;
+}
+/*  */
+.content{
+    width: 100%;
+    height: 600px;
+    background-color: #efefef;
+}
+.content ul li {
+    color: black;
+    list-style-type: none;
+}
+ 
+.content ul li:before {
+    color: red;
+    float: left;
+    margin: 0 0 0 -1em;
+    width: 1em;
+    content: '\2022';
+}
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    height: 400px;
+    background-image: url(/frontend/images/footer.png);
+    background-size: 100% 120% ;
+    background-repeat: no-repeat;
+}
+.footer-p{
+    color: #fff;
+    font-size:x-large;
+    font-weight: bold;
+}
+.footer-li{
+    list-style: url(/frontend/images/assets/icon_list_footer.png);
+    color: #fff;
+    margin-top: 10px;
+}
+.footer td{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;;
+}
